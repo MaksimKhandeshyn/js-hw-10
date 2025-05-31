@@ -1,0 +1,19 @@
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.show {
+  width: 400px;
+  height: 200px;
+  background-color: #59c678;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  visibility: visible;
+}
+.second-el {
+  background-color: #59c678;
+  width: 200px;
+  height: 100px;
+}
