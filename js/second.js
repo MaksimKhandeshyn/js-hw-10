@@ -15,3 +15,9 @@ refs.sEl.addEventListener("click", () => {
     refs.sEl.style.height = 700 + "px";
   }, 3000);
 });
+refs.tEl.addEventListener("click", () => {
+  setInterval(() => {
+    refs.tEl.style.top = 20 + "%";
+    refs.tEl.style.left = 20 + "%";
+  }, 1000);
+});
